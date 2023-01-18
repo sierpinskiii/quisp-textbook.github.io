@@ -1,4 +1,4 @@
-# quisp-textbook
+# QuISP Textbook
 
 ![cover](cover.jpg "Cover")
 
