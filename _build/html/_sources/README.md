@@ -1,5 +1,7 @@
 # quisp-textbook
 
+![cover](cover.jpg "Cover")
+
 ## instruction to edit quisp-textbook
 
 1. write contents in a new file (e.g. `chapter1.md`)
