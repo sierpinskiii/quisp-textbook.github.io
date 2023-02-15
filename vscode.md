@@ -34,7 +34,7 @@ If you are not prompted to download clangd, you need to install it manually. Exe
 
     ```bash
     sudo apt update -y
-    sudo apt-get install clangd-1
+    sudo apt-get install clangd-12
     sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-12 100
     ```
 
