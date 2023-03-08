@@ -9,5 +9,5 @@ chapters:
 - file: what-is-quisp
 - file: getting-started
 - file: vscode
+- file: debugger
 - file: init-tutorial
-
