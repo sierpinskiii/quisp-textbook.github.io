@@ -11,7 +11,7 @@ Welcome onboard! This is your friendly guide to get started with QuISP developme
 
 As of this very moment in 2023, we're actively working on this project (mainly in the Delta Building of Keio University SFC, Japan), and new engineers are welcome, regardless of quantum computing related experience/knowledge they have.
 
-> the world could always use more heros.
+> the world could always use more heroes.
 
 
 
