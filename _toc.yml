@@ -8,6 +8,7 @@ chapters:
 - file: quantum-networks
 - file: what-is-quisp
 - file: getting-started
+- file: init-tutorial
 - file: vscode
 - file: debugger
 - file: init-tutorial
