@@ -9,24 +9,21 @@ Now that you have QuISP up and running, it's time to build your first quantum ne
 
 In our project explorer (default left hand side), expand the quisp master folder to see a dropdown list of folders related to QuISP. Select and expand the `/simulations` folder.
 
+![simu](../img/simu.png)
+
 <div>
-<img src="simu.png" width="500"/>
+<img src="img/simu.png" width="500"/>
 </div>
 
 Once inside, we can see a variety of simulations we can choose to run. In this case, we will want to run the "quisp_tutorial" simulation. Do this by right clicking `quisp_tutorial.ini > Run As > OMNet++ Simulation`
 
 > OMNet++ will now start building our QuISP simulation!
 
-<div>
-<img src="runas.png" width="500"/>
-</div>
+![runas](../img/runas.png)
 
 Alternatively, simply select `quisp_tutorial.ini` and click the green "Run Simulations" button in the taskbar located at the top of OMNet++.
 
-<div>
-<img src="greenrun.png" width="200"/>
-</div>
-
+![greenrun](../img/greenrun.png)
 
 ### Choosing our network demo
 
@@ -36,33 +33,23 @@ There are six basic types of network demos available:
 
 - **Tutorial_MM** (Two nodes connected via a single Memory-to-Memory Link)
 
-<div>
-<img src="tmm.png" width="200"/>
-</div>
+![tmm](../img/tmm.png)
 
 - **Tutorial_MIM** (Two nodes connected via a single Memory-Interface-Memory link) <br> "HoM" is a Bell State Analyzer in the middle of the link
 
-<div>
-<img src="tmim.png" width="400"/>
-</div>
+![tmim](../img/tmim.png)
 
 - **Three_HOM_Star** (Star topology with 3 links with "HoM" in the middle of each link)
 
-<div>
-<img src="starlink.png" width="400"/>
-</div>
+![starlink](../img/starlink.png)
 
 - **Realistic_Layer2_Simple_MIM_MM_all_in_one** (A moderately realistic network made up of MIM and MM connections, with repeaters to extend the signal)
 
-<div>
-<img src="reallink.png" width="500"/>
-</div>
+![reallink](../img/reallink.png)
 
 - **Realistic_Layer2_Star_Sep** (A moderately realistic network with a star topology)
 
-<div>
-<img src="realstar.png" width="500"/>
-</div>
+![realstar](../img/realstar.png)
 
 - **Tutorial_Big_Q_Network** (A large quantum network consisting of various nodes)
 

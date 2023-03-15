@@ -4,10 +4,10 @@
 format: jb-book
 root: intro
 chapters:
-- file: questions
-- file: quantum-networks
-- file: what-is-quisp
-- file: getting-started
-- file: init-tutorial
-- file: vscode
-- file: debugger
+- file: contents/questions
+- file: contents/quantum-networks
+- file: contents/what-is-quisp
+- file: contents/getting-started
+- file: contents/init-tutorial
+- file: contents/vscode
+- file: contents/debugger

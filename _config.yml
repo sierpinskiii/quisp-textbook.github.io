@@ -5,6 +5,10 @@ title: QuISP Textbook
 author: AQUA QuISP Core Dev Team
 logo: quisp.png
 
+sphinx:
+  config:
+    html_theme: sphinx_book_theme
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
