@@ -4,79 +4,21 @@ Okay, enough talks. Now let's see how quisp is working with our bare eyes. We ha
 
 > :warning: **Building the software from source** might look awkward to some developers with interpreter-based languages (such as Python, Lua, JS...). We are going to add the software build section to the textbook, explaining the architecture of GNU `make` and the concept of `makemake` we are using with OMNeT++. Don't switch the channel! For now, you can follow our manual to get the correct result.
 
-## Installation
+## QuISP on Linux
+### Prerequisites
+There are many ways to install QuISP, and you can find all of them on the wiki of QuISP repository. However, we're going to stick to the native installation on linux in this tutorial. When this method is not working, don't panic...you can always use our docker container.  
 
-### Recommended Environment
-- Docker with at least 6GB of allocated RAM (you can change that in Docker Desktop Settings)
-...and that's it!
+First, please install `clang` on your system. It is widely available on the various Linux package managers, so it should be very simple like: `sudo pacman -S clang` or `sudo apt install clang`.  
 
-The following procedures were confirmed working on the MacOS Catalina (10.15.3) and Mojave(10.14).
+Second, install the OMNeT++, which is the DES (Discrete Event Simulator) we are using to run QuISP. Refer to the following link to get the instructions for installing QuISP, and get back here when it's done. We recommend you to prepare a cup of coffee, tea, or anything you prefer, since it might take your time a bit.  
 
-### TL;DR
-- Install brew, docker, XQuartz and socat with `sh docker_tools.sh`
-- clone quisp
-- `docker pull ghcr.io/sfc-aqua/quisp`
-- Run docker with `sh docker_run.sh`
-- Run `omnetpp` command on the docker container
+If `clang` is availabe in your system and you can run the OMNeT++ executable `omnetpp` from your terminal emulator, you can proceed to the next step.
 
----
-
-### Automated way
-
-1. Open your terminal and run
-
-```zsh
-$ git clone https://github.com/sfc-aqua/quisp.git
-```
-
-You can download quisp from github.
-Enter quisp with `cd quisp`
-2. Run shell script
-
-```zsh
-$ sh docker_tools.sh
-```
-
-After you have successfully installed the related tools, please reboot your laptop. (Maybe just rebooting your terminal is enough.)
-
-3. Build docker container
-
-Open terminal and run,
-
-```zsh
-$ docker pull ghcr.io/sfc-aqua/quisp
-```
-
-A docker image called quisp should have been created. You can check with the command `docker images`.
-
-4. Run docker container
-
-OK, now you can enter the container.
-
-```zsh
-$ sh docker_run.sh
-```
-
-If this error pops up,
-```zsh
-docker_run.sh: line 15: xhost: command not found
-docker_run.sh: line 15: xterm: command not found
-```
-add `/usr/X11/bin` (might vary) to your path
-
-5. Try quisp!
-
-If all of the processing completed successfully, you should see
-
-```zsh
-quisp:/root/quisp$
-```
-
-Open omnet with
-
-```zsh
-quisp:/root/quisp$ omnetpp
-```
-
-Enjoy quisp!
+### Building the QuISP
+To build QuISP, you should get the source in your working directory by cloning our repo and `cd` inside the directory:  
+```bash
+$ git clone https://github.com/sfc-aqua/quisp && cd quisp
+```   
+Now we are in the cloned repository.  
+You will see a `Makefile` in the root of our repository, but now is not the right time to trigger `make` here. There is **one more** `quisp` directory inside the repository, and that is where the most of our core logic source codes live. This might cause a bit of confusion, so from now on I will always write their locations in a following form: `quisp/` and `quisp/quisp/`.
 
