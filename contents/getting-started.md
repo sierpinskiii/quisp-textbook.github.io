@@ -10,9 +10,7 @@ There are many ways to install QuISP, and you can find all of them on the wiki o
 
 First, please install `clang` on your system. It is widely available on the various Linux package managers, so it should be very simple like: `sudo pacman -S clang` or `sudo apt install clang`.  
 
-Second, install the OMNeT++, which is the DES (Discrete Event Simulator) we are using to run QuISP. Refer to the following PDF guide to get the instructions for installing QuISP, and get back here when it's done. We recommend you to prepare a cup of coffee, tea, or anything you prefer, since it might take your time a bit.  
-
-<embed src="https://doc.omnetpp.org/omnetpp/InstallGuide.pdf" type="application/pdf" width="100%" height="50%">
+Second, install the OMNeT++, which is the DES (Discrete Event Simulator) we are using to run QuISP. Refer to the following link to get the instructions for installing QuISP, and get back here when it's done. We recommend you to prepare a cup of coffee, tea, or anything you prefer, since it might take your time a bit.  
 
 If `clang` is availabe in your system and you can run the OMNeT++ executable `omnetpp` from your terminal emulator, you can proceed to the next step.
 
