@@ -1,3 +1,0 @@
-# Quantum Networking
-
-To understand the Quantum Internet, you surley have to grasp an idea of Quantum Networking. Just like in the classical world, the Internet insists of a bunch of interconnected networks. When I say "network", that refers to almost every kind of programmatically defined networks; such as the home network you use to fetch some fresh-new Arch Linux package updates, or the school WiFi you access to join the online class happening in the lecturer's lab, which is right behind your lab. Obviously, all those small networks must be connected with some sort of protocol, such as [IP over Avian Carriers](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers), or just some simple fiber cables and a bunch of routers and switches.
