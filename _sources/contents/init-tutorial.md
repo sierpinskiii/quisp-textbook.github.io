@@ -11,10 +11,6 @@ In our project explorer (default left hand side), expand the quisp master folder
 
 ![simu](../img/simu.png)
 
-<div>
-<img src="img/simu.png" width="500"/>
-</div>
-
 Once inside, we can see a variety of simulations we can choose to run. In this case, we will want to run the "quisp_tutorial" simulation. Do this by right clicking `quisp_tutorial.ini > Run As > OMNet++ Simulation`
 
 > OMNet++ will now start building our QuISP simulation!

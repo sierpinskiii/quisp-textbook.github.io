@@ -6,7 +6,7 @@ Okay, enough talks. Now let's see how quisp is working with our bare eyes. We ha
 
 ## QuISP on Linux
 ### Prerequisites
-There are many ways to install QuISP, and you can find all of them on the wiki of QuISP repository. However, we're going to stick to the native installation on linux in this tutorial. When this method is not working, don't panic...you can always use our docker container.  
+There are many ways to install QuISP, and you can find all of them on the wiki of QuISP repository. However, we're going to stick to the native installation on linux in this tutorial. When this method is not working, don't panic...you can always use our docker container. If you are just interested in **using** quisp to try some simulations and **not** interested in the building mechanism of QuISP, you can simply use the docker container to save your time.  
 
 First, please install `clang` on your system. It is widely available on the various Linux package managers, so it should be very simple like: `sudo pacman -S clang` or `sudo apt install clang`.  
 
